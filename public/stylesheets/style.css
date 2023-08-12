@@ -1,0 +1,68 @@
+/* Add custom CSS styles */
+/* Add custom CSS styles */
+body {
+  background-image: url('/images/background3.png'); 
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0; 
+  padding: 0px; 
+  background-repeat: no-repeat;
+
+  
+}
+
+
+h1 {
+  margin: 0; 
+  padding: 20px; 
+  color: #343a40;
+}
+
+.add-task-button {
+  margin-top: 10px;
+}
+
+/* Category filter dropdown */
+#category-filter {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the table */
+.table {
+  background-color: #fff;
+}
+
+.table th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.table-secondary {
+  background-color: #f8f9fa;
+}
+
+/* Styling for buttons */
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+}
+
+.btn-outline-info {
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-outline-warning {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+/* Padding for the edit and delete buttons */
+.btn-outline-info,
+.btn-outline-warning {
+  padding: 2px 8px;
+  margin-right: 5px;
+}
+

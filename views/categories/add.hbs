@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <form method="post">
+        <fieldset>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" name="name" id="name" required>
+            </div>
+        </fieldset>
+
+        <!-- Button to open the icon modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iconModal">
+            Choose Icon
+        </button>
+        
+        <!-- The icon modal -->
+        <div class="modal fade" id="iconModal" tabindex="-1" role="dialog" aria-labelledby="iconModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="iconModalLabel">Select an Icon</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Example icon, you can loop through icons here -->
+                        <i class="fas fa-heart fa-3x" data-dismiss="modal" aria-label="Heart icon"></i>
+                        <!-- Another example icon -->
+                        <i class="fas fa-star fa-3x" data-dismiss="modal" aria-label="Star icon"></i>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="offset-3 btn btn-primary">Submit</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

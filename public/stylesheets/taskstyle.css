@@ -1,0 +1,77 @@
+/* Reset default margin and padding for the entire page */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  body {
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Add some padding around the content */
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the filter dropdown */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the table */
+  .table {
+    background-color: white; /* Add a white background to the table */
+    border-radius: 10px; /* Round the table corners */
+  }
+  
+  /* Style table headers */
+  .table-danger th {
+    background-color: #dc3545; /* Use a red color for header background */
+    color: white;
+  }
+  
+  /* Style table rows */
+  .table-secondary td {
+    vertical-align: middle; /* Center the content vertically in table cells */
+  }
+  
+
+  
+  /* Style the "Edit" and "Delete" buttons in table cells */
+  .btn-outline-info,
+  .btn-outline-warning {
+    margin-right: 5px;
+  }
+  
+  /* Style the "Delete" button to be more noticeable */
+  .btn-outline-warning {
+    color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  /* Center the "Edit" and "Delete" buttons */
+  .table-secondary .btn {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .add-task-button {
+    background-color: #28a745; /* Green background color */
+    border-color: #28a745; /* Green border color */
+    color: white; /* White text color */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 20px;
+  }
+  
+  /* Change the background color when hovering over the button */
+  .add-task-button:hover {
+    background-color: #218838; /* Darker green background color on hover */
+    border-color: #218838; /* Darker green border color on hover */
+  }
